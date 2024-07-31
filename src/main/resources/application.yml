@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SpringOne
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_one
+    username: postgres
+    password: qwerty
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
